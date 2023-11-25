@@ -17,22 +17,22 @@
    </head>
    <body>
       <!--==================== HEADER ====================-->
-      <header class="header header-pages" id="header">
+      <header class="header" id="header">
          <nav class="nav container">
             <a href="index.html" class="nav__logo">Kassius</a>
 
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="index.html" class="nav__link">Home</a>
+                     <a href="index.html" class="nav__link translate"data-translate-key="home">Home</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="about.html" class="nav__link">About Me</a>
+                     <a href="about.html" class="nav__link translate"data-translate-key="about">About Me</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="work.html" class="nav__link">Work</a>
+                     <a href="work.html" class="nav__link translate"data-translate-key="work">Work</a>
                   </li>
 
                   <li class="nav__item">
@@ -53,6 +53,8 @@
                <div class="nav__toggle" id="nav-toggle">
                   <i class="ri-apps-2-line"></i>
                </div>
+               <!--Language Picker-->
+               <i class="ri-earth-fill change-language" id="language-button"></i>
             </div>
 
          </nav>
@@ -62,7 +64,7 @@
       <main class="main">
          <!--==================== ABOUT ====================-->
          <section class="about section">
-            <h2 class="section__title">
+            <h2 class="section__title translate"data-translate-key="aboutsectiontitle">
                Behind the Scenes
             </h2>
 
@@ -77,15 +79,15 @@
                   <div class="about__data grid">
                      <div class="about__info grid">
                         <h1 class="about__name">Kassius</h1>
-                        <h2 class="about__profession">Versatile Web, Visual, and Graphic Designer</h2>
-                        <p class="about__description">I'm a modern designer fluent in the languages of the web: HTML, CSS, JS, and skilled in Figma, GitHub, Photoshop, Illustrator, and InDesign. Beyond digital landscapes, I craft visual stories, designing not just websites but also giving life to books and modern social media designs. My main focus is creating an engaging User Experience and better flow. </p>
+                        <h2 class="about__profession translate"data-translate-key="profession">Versatile Web, Visual, and Graphic Designer</h2>
+                        <p class="about__description translate"data-translate-key="aboutdescription">I'm a modern designer fluent in the languages of the web: HTML, CSS, JS, and skilled in Figma, GitHub, Photoshop, Illustrator, and InDesign. Beyond digital landscapes, I craft visual stories, designing not just websites but also giving life to books and modern social media designs. My main focus is creating an engaging User Experience and better flow. </p>
                      </div>
                   </div>
 
-                  <a href="contact.html" class="about__button button">Contact Me</a>
+                  <a href="contact.html" class="about__button button translate"data-translate-key="contact">Contact Me</a>
 
                   <div class="about__skills">
-                     <h3 class="about__skills-title">My Skills Are</h3>
+                     <h3 class="about__skills-title translate"data-translate-key="skill">My Skills Are</h3>
    
                      <div class="about__skills-content grid">
                         <img src="assets/img/about-html.svg" alt="skill-html" class="about__skills-img">
@@ -114,15 +116,15 @@
 
                <ul class="footer__links">
                   <li>
-                     <a href="about.html" class="footer__link">About Me</a>
+                     <a href="about.html" class="footer__link translate"data-translate-key="about">About Me</a>
                   </li>
 
                   <li>
-                     <a href="work.html" class="footer__link">Portfolio</a>
+                     <a href="work.html" class="footer__link translate"data-translate-key="work">Work</a>
                   </li>
 
                   <li>
-                     <a href="contact.html" class="footer__link">Contact Me</a>
+                     <a href="contact.html" class="footer__link translate"data-translate-key="contact">Contact Me</a>
                   </li>
                </ul>
 
@@ -137,7 +139,7 @@
                </div>
             </div>
 
-            <span class="footer__copy">
+            <span class="footer__copy translate"data-translate-key="copyright">
                &#169; All Rights Reserved by Kassius
             </span>
          </div>

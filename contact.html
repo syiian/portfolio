@@ -17,22 +17,22 @@
    </head>
    <body>
       <!--==================== HEADER ====================-->
-      <header class="header header-pages" id="header">
+      <header class="header" id="header">
          <nav class="nav container">
             <a href="index.html" class="nav__logo">Kassius</a>
 
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="index.html" class="nav__link">Home</a>
+                     <a href="index.html" class="nav__link translate"data-translate-key="home">Home</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="about.html" class="nav__link">About Me</a>
+                     <a href="about.html" class="nav__link translate"data-translate-key="about">About Me</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="work.html" class="nav__link">Work</a>
+                     <a href="work.html" class="nav__link translate"data-translate-key="work">Work</a>
                   </li>
 
                   <li class="nav__item">
@@ -53,6 +53,8 @@
                <div class="nav__toggle" id="nav-toggle">
                   <i class="ri-apps-2-line"></i>
                </div>
+               <!--Language Picker-->
+               <i class="ri-earth-fill change-language" id="language-button"></i>
             </div>
 
          </nav>
@@ -62,14 +64,14 @@
       <main class="main">
          <!--==================== CONTACT ====================-->
          <section class="contact section">
-            <h2 class="section__title">Let's Talk</h2>
+            <h2 class="section__title translate"data-translate-key="contactsectiontitle">Let's Talk</h2>
 
             <div class="contact__page container grid">
                <form action="" class="contact__form grid" id="contact-form">
                   <div class="contact__group grid">
                      <div class="contact__box">
                         <input type="text" name="user_name" id="name" required placeholder="Name" class="contact__input">
-                        <label for="name" class="contact__label">First Name</label>
+                        <label for="name" class="contact__label translate"data-translate-key="firstname">First Name</label>
                      </div>
 
                      <div class="contact__box">
@@ -80,12 +82,12 @@
 
                   <div class="contact__box contact__area">
                      <textarea name="user_message" id="message" required placeholder="Your Message" cols="30" rows="10" class="contact__input"></textarea>
-                     <label for="message" class="contact__label">Message</label>
+                     <label for="message" class="contact__label translate"data-translate-key="message">Message</label>
                   </div>
 
                   <p class="contact__message" id="contact-message"></p>
 
-                  <button type="submit" class="contact__send button">Send Message</button>
+                  <button type="submit" class="contact__send button translate"data-translate-key="sendmessage">Send Message</button>
                </form>
             </div>
          </section>
@@ -99,15 +101,15 @@
 
                <ul class="footer__links">
                   <li>
-                     <a href="about.html" class="footer__link">About Me</a>
+                     <a href="about.html" class="footer__link translate"data-translate-key="about">About Me</a>
                   </li>
 
                   <li>
-                     <a href="work.html" class="footer__link">Portfolio</a>
+                     <a href="work.html" class="footer__link translate"data-translate-key="work">Work</a>
                   </li>
 
                   <li>
-                     <a href="contact.html" class="footer__link">Contact Me</a>
+                     <a href="contact.html" class="footer__link translate"data-translate-key="contact">Contact Me</a>
                   </li>
                </ul>
 
@@ -122,7 +124,7 @@
                </div>
             </div>
 
-            <span class="footer__copy">
+            <span class="footer__copy translate"data-translate-key="copyright">
                &#169; All Rights Reserved by Kassius
             </span>
          </div>

@@ -17,23 +17,22 @@
    </head>
    <body>
       <!--==================== HEADER ====================-->
-      <header class="header header-pages" id="header">
-
+      <header class="header" id="header">
          <nav class="nav container">
             <a href="index.html" class="nav__logo">Kassius</a>
 
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="index.html" class="nav__link">Home</a>
+                     <a href="index.html" class="nav__link translate"data-translate-key="home">Home</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="about.html" class="nav__link">About Me</a>
+                     <a href="about.html" class="nav__link translate"data-translate-key="about">About Me</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="work.html" class="nav__link">Work</a>
+                     <a href="work.html" class="nav__link translate"data-translate-key="work">Work</a>
                   </li>
 
                   <li class="nav__item">
@@ -54,10 +53,11 @@
                <div class="nav__toggle" id="nav-toggle">
                   <i class="ri-apps-2-line"></i>
                </div>
+               <!--Language Picker-->
+               <i class="ri-earth-fill change-language" id="language-button"></i>
             </div>
 
          </nav>
-      
       </header>
 
       <!--==================== MAIN ====================-->
@@ -330,15 +330,15 @@
 
                <ul class="footer__links">
                   <li>
-                     <a href="about.html" class="footer__link">About Me</a>
+                     <a href="about.html" class="footer__link translate"data-translate-key="about">About Me</a>
                   </li>
 
                   <li>
-                     <a href="work.html" class="footer__link">Portfolio</a>
+                     <a href="work.html" class="footer__link translate"data-translate-key="work">Work</a>
                   </li>
 
                   <li>
-                     <a href="contact.html" class="footer__link">Contact Me</a>
+                     <a href="contact.html" class="footer__link translate"data-translate-key="contact">Contact Me</a>
                   </li>
                </ul>
 
@@ -353,7 +353,7 @@
                </div>
             </div>
 
-            <span class="footer__copy">
+            <span class="footer__copy translate"data-translate-key="copyright">
                &#169; All Rights Reserved by Kassius
             </span>
          </div>
