@@ -130,6 +130,13 @@ img {
   transition: color .4s;
 }
 
+.change-language{
+  color: var(--white-color);
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: color .4s;
+}
+
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
   --title-color: hsl(var(--hue), 24%, 85`%);
@@ -301,7 +308,7 @@ body.dark-theme{
   box-shadow: 0 2px 16px var(--shadow-color);
 }
 
-.bg-header :is(.nav__logo, .nav__toggle, .change-theme){
+.bg-header :is(.nav__logo, .nav__toggle, .change-theme, .change-language){
   color: var(--title-color);
 }
 
@@ -310,7 +317,7 @@ body.dark-theme{
   background-color: var(--body-color);
 }
 
-.header-pages :is(.nav__logo, .nav__toggle, .change-theme){
+.header-pages :is(.nav__logo, .nav__toggle, .change-theme, .change-language){
   color: var(--title-color);
 }
 
@@ -926,6 +933,10 @@ body.dark-theme{
   }
 
   .change-theme{
+    color: var(--title-color);
+  }
+
+  .change-language{
     color: var(--title-color);
   }
 
