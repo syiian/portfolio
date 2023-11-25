@@ -111,6 +111,7 @@ const translations = {
       message: 'Message',
       firstname: 'First Name',
       sendmessage: 'Send Message',
+      skill: 'My Skills Are',
 
     },
     'ro': {
@@ -159,7 +160,8 @@ const translations = {
       message: 'Mesaj',
       messagesus: 'Mesajul tău',
       firstname: 'Numele',
-      sendmessage: 'Trimite Mesajul'
+      sendmessage: 'Trimite Mesajul',
+      skill: 'Aptitudinile Mele Sunt',
     }
   };
   
